@@ -1,4 +1,4 @@
-package com.example.ratemit.adpaters;
+package com.androidtools.Adapters;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Type;
@@ -19,11 +19,9 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.ratemit.R;
-import com.example.ratemit.models.Category;
-import com.example.ratemit.resources.FilterCallable;
-import com.example.ratemit.resources.GenericCallable;
-import com.example.ratemit.resources.WebRequestHandler;
+import com.androidtools.Resources.FilterCallable;
+import com.androidtools.Resources.GenericCallable;
+import com.androidtools.Web.WebRequestHandler;
 import com.google.gson.reflect.TypeToken;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
